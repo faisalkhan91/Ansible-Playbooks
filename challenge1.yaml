@@ -1,0 +1,11 @@
+---
+
+- name: Install ansible using python virtual environment.
+  hosts: host1
+
+  tasks:
+          - name: ansible pip
+            pip:
+                    name: ansible
+                    virtualenv: ~/challenge1
+
